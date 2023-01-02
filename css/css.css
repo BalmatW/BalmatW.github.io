@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2 janv. 2023, 17:36:53
+    Author     : William
+*/
+.jumbotron img-2 {
+    background-image: url(images/fond.png);
+    background-attachment: scroll;
+}
+
+.box-lg{
+    margin: 0px auto; 
+    max-width: 1500px; 
+    padding: 25px;
+}
+
+.box-all{
+    margin: 0px auto; 
+    width: 100%; 
+    padding: 15px;
+}
+
+/*Text edit*/
+
+.underline {
+    text-decoration: underline #E2001A;
+}
+
+
+/*Utilisation de bordure*/
+/*Taille de la bordure*/
+.border-sm {
+    border-width: 10px !important
+}
+
+.border-red {
+    border-style: ridge !important;
+    border-color: red !important;
+}
+
+
+@media (max-width: 578px) {
+    .jumbotron {
+        margin-top: 2.5rem;
+    }
+}
+
